@@ -67,14 +67,12 @@ DB_DATABASE=task_manager
 DB_USERNAME=root
 DB_PASSWORD=
 
-markdown
-Copy code
+
 
 7. **Run migrations**
 php artisan migrate
 
-markdown
-Copy code
+
 
 8. **Start the Laravel server**
 php artisan serve
@@ -87,8 +85,8 @@ php artisan serve
 - Go to:
 http://127.0.0.1:8000/tasks
 
-yaml
-Copy code
+
+
 
 ---
 
@@ -99,8 +97,9 @@ Copy code
 php artisan config:clear
 php artisan cache:clear
 
-yaml
-Copy code
+
+
+
 
 ---
 
