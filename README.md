@@ -39,8 +39,8 @@ git clone https://github.com/rutika612/task-manager.git
 2. **Open project folder**
 cd task-manager
 
-markdown
-Copy code
+
+
 
 3. **Install dependencies**
 composer install
@@ -48,14 +48,12 @@ composer install
 4. **Create environment file**
 cp .env.example .env
 
-markdown
-Copy code
+
 
 5. **Generate application key**
 php artisan key:generate
 
-markdown
-Copy code
+
 
 6. **Configure database**
 - Open `.env` file
